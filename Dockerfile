@@ -1,4 +1,4 @@
-from ubuntu:impish-20211015
+from ubuntu:impish-20220404
 USER root
 RUN echo "root:Passw0rd" | chpasswd
 RUN DEBIAN_FRONTEND="noninteractive" apt-get update -y
